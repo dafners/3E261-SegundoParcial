@@ -1,5 +1,6 @@
 #include <iostream>
 
-int main(argc, argv) {
+int main(int argc, char* argv[]) {
     return EXIT_SUCCESS;
 }
+
