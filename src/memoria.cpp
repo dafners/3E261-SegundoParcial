@@ -29,5 +29,15 @@ int main(int argc, char const *argv[])
     cout << &direccion << endl;
     cout << *direccion << endl;
 
+    cout << "Malloc: ";
+    int* dir = (int *)malloc(sizeof(int)); //En C
+    *dir = 7;
+    cout << *dir << endl;
+
+    int* dir2 = new int; //En C++
+
+    /*cout << "Malloc: ";
+    cout << malloc(4) << endl;*/
+
     return 0;
 }
